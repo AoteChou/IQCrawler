@@ -15,6 +15,7 @@ import org.semanticweb.yars.util.CallbackNQOutputStream;
 import org.semanticweb.yars.util.CallbackRDFXMLOutputStream;
 
 import com.aote.lodspider.hooks.MyCallback;
+import com.aote.lodspider.matching.ExactMatching;
 import com.ontologycentral.ldspider.Crawler;
 import com.ontologycentral.ldspider.CrawlerConstants;
 import com.ontologycentral.ldspider.frontier.BasicFrontier;
@@ -53,7 +54,7 @@ public class ldspiderTest {
 		// sink
 		try {
 			OutputStream os = new FileOutputStream("crawlerLog");
-			Callback cboutput = new MyCallback(os);
+			Callback cboutput = new MyCallback(os,new ExactMatching());
 			Sink sink = new SinkCallback(cboutput);
 			crawler.setOutputCallback(sink);
 			cboutput.startDocument();

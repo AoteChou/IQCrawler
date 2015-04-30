@@ -5,18 +5,22 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.logging.Logger;
 
-
 import org.semanticweb.yars.nx.Node;
 import org.semanticweb.yars.nx.Resource;
 import org.semanticweb.yars.nx.parser.Callback;
+
+import com.aote.lodspider.matching.Matching;
 
 public class MyCallback implements Callback{
 	private static Logger _log = Logger.getLogger(MyCallback.class.getName());
 
 	OutputStream _out;
 	
-	public MyCallback(OutputStream out){
+	Matching matchingAlgorithm;
+	
+	public MyCallback(OutputStream out, Matching matchingAlgorithm){
 		_out = out;
+		this.matchingAlgorithm = matchingAlgorithm;
 	}
 
 	public void startDocument() {
@@ -46,7 +50,9 @@ public class MyCallback implements Callback{
 		
 		
 		//if (subjID.contains("Scorpion_toxinL/defesin") || objID.contains("Scorpion_toxinL/defesin")) {
-		if (objID.contains("2015-01-01")) {
+		String[] a = {objID.toString()};
+		String[] b = {"2015-01-01"};
+		if (matchingAlgorithm.ifmatch(a, b)) {
 //		if (objID.contains("defensin") || subjID.contains("defensin") ) {
 		
 			//System.out.println("Matching found!"+new Date());
