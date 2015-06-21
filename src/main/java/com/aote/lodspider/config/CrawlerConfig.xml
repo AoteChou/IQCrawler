@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<numberOfThread>3</numberOfThread>
+	<seedFile>src/main/java/com/aote/lodspider/config/Seed.txt</seedFile>
+	<depth>2000</depth>
+	<maxURIs>-1</maxURIs>
+	<maxplds>-1</maxplds>
+	<minActplds>-1</minActplds>
+</config>

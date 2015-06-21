@@ -1,0 +1,13 @@
+/target/
+/lib/
+/LOG/
+/Queue/
+/crawlerLog
+/crawlerLog_ED
+/crawlerLog_Full
+/CrawlGraph copy.gexf
+/CrawlGraph.gexf
+/EDandSim
+/errorLogFile
+/FrontierQueue
+/unsorted.gexf
