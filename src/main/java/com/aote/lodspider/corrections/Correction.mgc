@@ -20,7 +20,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="com.aote.lodspider.corrections.Correction"/>
     </Class>
-    <Class name="com.aote.lodspider.corrections.Correction" x="170" y="173">
+    <Class name="com.aote.lodspider.corrections.Correction" x="179" y="171">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -36,7 +36,7 @@
             <Point x="448" y="92"/>
         </Association>
     </Class>
-    <Class name="com.aote.lodspider.Triple" x="411" y="157">
+    <Class name="com.aote.lodspider.Triple" x="394" y="161">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>

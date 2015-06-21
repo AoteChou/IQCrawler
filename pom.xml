@@ -31,5 +31,10 @@
     	<artifactId>nxparser</artifactId>
     	<version>1.2.2</version>
     </dependency>
+    <dependency>
+    	<groupId>info.debatty</groupId>
+    	<artifactId>java-string-similarity</artifactId>
+    	<version>RELEASE</version>
+    </dependency>
   </dependencies>
 </project>

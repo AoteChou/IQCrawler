@@ -23,5 +23,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/LDSpider_Extended"/>
+	<classpathentry kind="lib" path="/Users/eddychou/lod-spider/lib/gexf4j-0.4.0-BETA.jar"/>
+	<classpathentry kind="lib" path="/Users/eddychou/lod-spider/lib/woodstox-core-asl-4.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/eddychou/lod-spider/lib/stax2-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/eddychou/lod-spider/lib/guava-13.0.jar"/>
+	<classpathentry kind="lib" path="/Users/eddychou/lod-spider/lib/simpack-0.91-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
