@@ -58,10 +58,13 @@ public class MyCallback implements Callback {
 		// objID.contains("Scorpion_toxinL/defesin")) {
 		String[] a = { subjID.toString(), predID.toString(), objID.toString() };
 		String[] b0 = { "defesin", "defesin", "defesin" };
-		String[] b1 = { "F:calcium channel activity",
-				"F:calcium channel activity", "F:calcium channel activity" };
+		
+		String[] b1 = { "extracellular exosome", "extracellular exosome", "extracellular exosome" };
 		String[] b2 = { "ISS:UiProtKB", "ISS:UiProtKB", "ISS:UiProtKB" };
-		String[][] b = { b0,b1,b2};
+		String[] b3 = { "GO_0070062", "GO_0070062", "GO_0070062" };
+		String[] b4 = { "GO:0070062", "GO:0070062", "GO:0070062" };
+		
+		String[][] b = { b0,b1,b2,b3,b4};
 		for (String[] pattern : b) {
 
 			if (matchingAlgorithm.ifmatch(pattern, a)) {

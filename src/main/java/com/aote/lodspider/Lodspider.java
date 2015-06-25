@@ -27,6 +27,10 @@ import com.ontologycentral.ldspider.CrawlerConstants;
 import com.ontologycentral.ldspider.frontier.BasicFrontier;
 import com.ontologycentral.ldspider.frontier.Frontier;
 import com.ontologycentral.ldspider.frontier.RankedFrontier;
+import com.ontologycentral.ldspider.hooks.content.ContentHandler;
+import com.ontologycentral.ldspider.hooks.content.ContentHandlerAny23;
+import com.ontologycentral.ldspider.hooks.content.ContentHandlerRdfXml;
+import com.ontologycentral.ldspider.hooks.content.ContentHandlers;
 import com.ontologycentral.ldspider.hooks.error.ErrorHandler;
 import com.ontologycentral.ldspider.hooks.error.ErrorHandlerLogger;
 import com.ontologycentral.ldspider.hooks.fetch.FetchFilter;
@@ -89,13 +93,24 @@ public class Lodspider {
 ////					"http://bio2rdf.org/interpro/describe/rdf/interpro:IPR002061"));
 ////check html version on http://localhost:8080/marmotta/meta/text/html?uri=http%3A%2F%2Flocalhost%2FTestResult			
 
+		//content handler
+		
+		ContentHandler contentHandler;
+		try {
+			contentHandler = new ContentHandlers(new ContentHandlerRdfXml(), new ContentHandlerAny23(new URI("http://localhost:8080/apache-any23-service/")));
+			crawler.setContentHandler(contentHandler);
+		} catch (URISyntaxException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
 		
 		// sink
 		try {
 			OutputStream os = new FileOutputStream("crawlerLog");
 			cboutput1 = new MyCallback(os,new PartialMatchingForEachItem());
 			OutputStream os2 = new FileOutputStream("crawlerLog_ED");
-			cboutput2 = new MyCallback(os2,new EditDistance(0.9));
+			cboutput2 = new MyCallback(os2,new EditDistance(0.8));
 			OutputStream os3 = new FileOutputStream("crawlerLog_Full");
 			Callback cboutput3 = new CallbackNQOutputStream(os3);//if used the thread will be stoped when a rdf file is finished, don't know why 
 //			OutputStream os2 = new BufferedOutputStream(new FileOutputStream("CrawlGraph.gexf"));

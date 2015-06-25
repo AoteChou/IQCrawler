@@ -2,6 +2,7 @@
 <config>
 	<numberOfThread>3</numberOfThread>
 	<seedFile>src/main/java/com/aote/lodspider/config/Seed.txt</seedFile>
+	<seedFile_Correction>src/main/java/com/aote/lodspider/config/Seed_Correction.txt</seedFile_Correction>
 	<depth>2000</depth>
 	<maxURIs>-1</maxURIs>
 	<maxplds>-1</maxplds>

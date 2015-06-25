@@ -1,15 +1,1 @@
-http://purl.uniprot.org/database/CTD
-http://purl.uniprot.org/database/BioGrid
-http://purl.uniprot.org/database/Allergome
-http://purl.uniprot.org/citations/19671381
-http://purl.uniprot.org/database/ArachnoServer
-http://purl.uniprot.org/citations/19674480
-http://purl.uniprot.org/database/Bgee
-http://purl.uniprot.org/database/BindingDB
-http://purl.uniprot.org/citations/17145705
-http://purl.uniprot.org/database/BioCyc
-http://purl.uniprot.org/citations/19850718
-http://purl.uniprot.org/citations/21071413
-http://purl.uniprot.org/database/BioMuta
-http://purl.uniprot.org/citations/24667251
-http://purl.uniprot.org/database/BRENDA
+http://purl.obolibrary.org/obo/GO_0070062
