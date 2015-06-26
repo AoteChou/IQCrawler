@@ -27,10 +27,6 @@ import com.ontologycentral.ldspider.CrawlerConstants;
 import com.ontologycentral.ldspider.frontier.BasicFrontier;
 import com.ontologycentral.ldspider.frontier.Frontier;
 import com.ontologycentral.ldspider.frontier.RankedFrontier;
-import com.ontologycentral.ldspider.hooks.content.ContentHandler;
-import com.ontologycentral.ldspider.hooks.content.ContentHandlerAny23;
-import com.ontologycentral.ldspider.hooks.content.ContentHandlerRdfXml;
-import com.ontologycentral.ldspider.hooks.content.ContentHandlers;
 import com.ontologycentral.ldspider.hooks.error.ErrorHandler;
 import com.ontologycentral.ldspider.hooks.error.ErrorHandlerLogger;
 import com.ontologycentral.ldspider.hooks.fetch.FetchFilter;
@@ -44,7 +40,7 @@ import com.ontologycentral.ldspider.queue.HashTableRedirects;
 import com.ontologycentral.ldspider.seen.HashSetSeen;
 
 @SuppressWarnings("deprecation")
-public class Lodspider {
+public class CorrectionSpider {
 
 	public static void breadthFirstCrawling(String configFilePath){
 		
@@ -52,7 +48,7 @@ public class Lodspider {
 		Hashtable<String, String> configMap = XMLParser.parse(configFilePath);
 		
 		int numberOfThread = Integer.parseInt(configMap.get("numberOfThread"));
-		String seedFile = configMap.get("seedFile");
+		String seedFile = configMap.get("seedFile_Correction");
 		int depth = Integer.parseInt(configMap.get("depth"));
 		int maxURIs = Integer.parseInt(configMap.get("maxURIs"));
 		int maxplds = Integer.parseInt(configMap.get("maxplds"));
@@ -93,17 +89,6 @@ public class Lodspider {
 ////					"http://bio2rdf.org/interpro/describe/rdf/interpro:IPR002061"));
 ////check html version on http://localhost:8080/marmotta/meta/text/html?uri=http%3A%2F%2Flocalhost%2FTestResult			
 
-		//content handler
-		
-		ContentHandler contentHandler;
-		try {
-			contentHandler = new ContentHandlers(new ContentHandlerRdfXml(), new ContentHandlerAny23(new URI("http://localhost:8080/apache-any23-service/")));
-			crawler.setContentHandler(contentHandler);
-		} catch (URISyntaxException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		
 		
 		// sink
 		try {
@@ -115,7 +100,7 @@ public class Lodspider {
 			Callback cboutput3 = new CallbackNQOutputStream(os3);//if used the thread will be stoped when a rdf file is finished, don't know why 
 //			OutputStream os2 = new BufferedOutputStream(new FileOutputStream("CrawlGraph.gexf"));
 //			cboutput2 = new CallbackGEXFOutputStream(os2);
-			Callbacks cbs = new Callbacks(new Callback[] { cboutput1, cboutput2} );
+			Callbacks cbs = new Callbacks(new Callback[] {cboutput1 } );
 
 			Sink sink = new SinkCallback(cbs,false);
 			crawler.setOutputCallback(sink);
@@ -128,9 +113,9 @@ public class Lodspider {
 
 		// link filter and blacklist
 		LinkFilter linkFilter 
-		= new LinkFilterDomain(frontier);
-	    ((LinkFilterDomain)linkFilter).addHost("localhost");
-//		= new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
+//		= new LinkFilterDomain(frontier);
+//	    ((LinkFilterDomain)linkFilter).addHost("localhost");
+		= new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
 //		linkFilter.setFollowTBox(false);//so won't follow perdicate and TBox type subject
 		crawler.setLinkFilter(linkFilter);
 
@@ -188,8 +173,8 @@ public class Lodspider {
 	}
 
 	public static void main(String[] args) {
-		Lodspider lodspider = new Lodspider();
-		Lodspider.breadthFirstCrawling("src/main/java/com/aote/lodspider/config/CrawlerConfig.xml");
+		CorrectionSpider lodspider = new CorrectionSpider();
+		CorrectionSpider.breadthFirstCrawling("src/main/java/com/aote/lodspider/config/CrawlerConfig.xml");
 	}
 
 }

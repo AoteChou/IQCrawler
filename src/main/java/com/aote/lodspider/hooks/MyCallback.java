@@ -2,13 +2,19 @@ package com.aote.lodspider.hooks;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.logging.Logger;
 
 import org.semanticweb.yars.nx.Node;
 import org.semanticweb.yars.nx.parser.Callback;
 
+import com.aote.lodspider.corrections.Correction;
 import com.aote.lodspider.matching.Matching;
+import com.aote.lodspider.relevance.Relevance;
 
 public class MyCallback implements Callback {
 	private static Logger _log = Logger.getLogger(MyCallback.class.getName());
@@ -53,6 +59,17 @@ public class MyCallback implements Callback {
 		String subjID = nx[0].toString();
 		String predID = nx[1].toString();
 		String objID = nx[2].toString();
+		String con = nx[3].toString();
+		
+		List<Correction> corrections =  new ArrayList<Correction>();
+		try {
+			corrections = Relevance._relevances.get(new URI(con));
+		} catch (URISyntaxException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		
 
 		// if (subjID.contains("Scorpion_toxinL/defesin") ||
 		// objID.contains("Scorpion_toxinL/defesin")) {
@@ -81,7 +98,10 @@ public class MyCallback implements Callback {
 			}
 		}
 		nodeVisited++;
-		strBuffer.append(subjID + "  " + predID + "  " + objID + "\n");
+		strBuffer.append(subjID + "  " + predID + "  " + objID +"\n");
+		for (Correction correction : corrections) {
+			strBuffer.append(correction.toString()+"\n");
+		}
 		// System.out.println(subjID+"  "+predID+"  "+objID);
 
 	}
