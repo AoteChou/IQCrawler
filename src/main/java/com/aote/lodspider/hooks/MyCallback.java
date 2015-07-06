@@ -61,6 +61,7 @@ public class MyCallback implements Callback {
 		String objID = nx[2].toString();
 		String con = nx[3].toString();
 		
+		//get corrections related with this U
 		List<Correction> corrections =  new ArrayList<Correction>();
 		try {
 			corrections = Relevance._relevances.get(new URI(con));
@@ -74,15 +75,16 @@ public class MyCallback implements Callback {
 		// if (subjID.contains("Scorpion_toxinL/defesin") ||
 		// objID.contains("Scorpion_toxinL/defesin")) {
 		String[] a = { subjID.toString(), predID.toString(), objID.toString() };
-		String[] b0 = { "defesin", "defesin", "defesin" };
+		ArrayList<String[]> targetList = new ArrayList<String[]>(); 
+		for (Correction correction : corrections) {
+			String oldValue = correction.getOldValue();
+			String[] target = {oldValue, oldValue, oldValue};
+			targetList.add(target);
+			
+		}
+		String[][] targetArray = targetList.toArray(new String[targetList.size()][3]);
 		
-		String[] b1 = { "extracellular exosome", "extracellular exosome", "extracellular exosome" };
-		String[] b2 = { "ISS:UiProtKB", "ISS:UiProtKB", "ISS:UiProtKB" };
-		String[] b3 = { "GO_0070062", "GO_0070062", "GO_0070062" };
-		String[] b4 = { "GO:0070062", "GO:0070062", "GO:0070062" };
-		
-		String[][] b = { b0,b1,b2,b3,b4};
-		for (String[] pattern : b) {
+		for (String[] pattern : targetArray) {
 
 			if (matchingAlgorithm.ifmatch(pattern, a)) {
 				nodeMatch++;
@@ -99,9 +101,9 @@ public class MyCallback implements Callback {
 		}
 		nodeVisited++;
 		strBuffer.append(subjID + "  " + predID + "  " + objID +"\n");
-		for (Correction correction : corrections) {
-			strBuffer.append(correction.toString()+"\n");
-		}
+//		for (Correction correction : corrections) {
+//			strBuffer.append(correction.toString()+"\n");
+//		}
 		// System.out.println(subjID+"  "+predID+"  "+objID);
 
 	}

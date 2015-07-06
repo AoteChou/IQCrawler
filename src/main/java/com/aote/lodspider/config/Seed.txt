@@ -1,1 +1,1 @@
-http://localhost:8080/marmotta/resource?uri=http://localhost/Corrections
+http://purl.uniprot.org/uniprot/P37231

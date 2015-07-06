@@ -1,6 +1,5 @@
 package com.aote.lodspider.util;
 
-import java.util.Arrays;
 
 import info.debatty.java.stringsimilarity.StringSimilarityInterface;
 

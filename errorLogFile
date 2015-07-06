@@ -1,3 +1,0 @@
-<http://localhost:8080/marmotta/resource?uri=http://localhost/Corrections> <http://localhost:8080/marmotta/meta/application/rdf+xml?uri=http://localhost/Corrections> .
-<http://localhost:8080/marmotta/resource?uri=http://localhost/Corrections/1232342> <http://localhost:8080/marmotta/meta/application/rdf+xml?uri=http://localhost/Corrections/1232342> .
-<http://localhost:8080/marmotta/resource?uri=http://localhost/Corrections/2> <http://localhost:8080/marmotta/meta/application/rdf+xml?uri=http://localhost/Corrections/2> .
