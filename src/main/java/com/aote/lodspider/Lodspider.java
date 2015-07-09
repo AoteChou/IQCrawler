@@ -115,7 +115,7 @@ public class Lodspider {
 			Callback cboutput3 = new CallbackNQOutputStream(os3);//if used the thread will be stoped when a rdf file is finished, don't know why 
 //			OutputStream os2 = new BufferedOutputStream(new FileOutputStream("CrawlGraph.gexf"));
 //			cboutput2 = new CallbackGEXFOutputStream(os2);
-			Callbacks cbs = new Callbacks(new Callback[] { cboutput1, cboutput2} );
+			Callbacks cbs = new Callbacks(new Callback[] { } );
 
 			Sink sink = new SinkCallback(cbs,false);
 			crawler.setOutputCallback(sink);
@@ -128,9 +128,9 @@ public class Lodspider {
 
 		// link filter and blacklist
 		LinkFilter linkFilter 
-		= new LinkFilterDomain(frontier);
-	    ((LinkFilterDomain)linkFilter).addHost("localhost");
-//		= new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
+//		= new LinkFilterDomain(frontier);
+//	    ((LinkFilterDomain)linkFilter).addHost("localhost");
+		= new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
 //		linkFilter.setFollowTBox(false);//so won't follow perdicate and TBox type subject
 		crawler.setLinkFilter(linkFilter);
 
@@ -183,7 +183,8 @@ public class Lodspider {
 		
 //		((CallbackGEXFOutputStream) cboutput2).readyToClose();
 //    	cboutput2.endDocument();
-    	
+   
+		//print callback1 result
     	System.out.println(cboutput1.toString());
 	}
 

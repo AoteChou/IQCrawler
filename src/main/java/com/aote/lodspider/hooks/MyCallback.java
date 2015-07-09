@@ -15,6 +15,8 @@ import org.semanticweb.yars.nx.parser.Callback;
 import com.aote.lodspider.corrections.Correction;
 import com.aote.lodspider.matching.Matching;
 import com.aote.lodspider.relevance.Relevance;
+import com.aote.lodspider.relevance.RelevanceFactory;
+import com.aote.lodspider.relevance.Relevance_Domain;
 
 public class MyCallback implements Callback {
 	private static Logger _log = Logger.getLogger(MyCallback.class.getName());
@@ -60,30 +62,42 @@ public class MyCallback implements Callback {
 		String predID = nx[1].toString();
 		String objID = nx[2].toString();
 		String con = nx[3].toString();
-		
-		//get corrections related with this U
-		List<Correction> corrections =  new ArrayList<Correction>();
+
+		// System.out.println(subjID+" "+predID+" "+objID+" "+con);
+
+		// get corrections related with this U
+		List<Correction> corrections = new ArrayList<Correction>();
+		Relevance_Domain r = RelevanceFactory.getRelevance();
+
 		try {
-			corrections = Relevance._relevances.get(new URI(con));
+			corrections = r.getRelatedCorrections(new URI(con));
+			while (corrections == null) {
+				System.out.println("waiting for the result: " + con);
+				Thread.sleep(500);
+				corrections = r.getRelatedCorrections(new URI(con));
+			}
+			System.out.println("get correction for "+ con);
 		} catch (URISyntaxException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
-		
 
 		// if (subjID.contains("Scorpion_toxinL/defesin") ||
 		// objID.contains("Scorpion_toxinL/defesin")) {
 		String[] a = { subjID.toString(), predID.toString(), objID.toString() };
-		ArrayList<String[]> targetList = new ArrayList<String[]>(); 
+		ArrayList<String[]> targetList = new ArrayList<String[]>();
 		for (Correction correction : corrections) {
 			String oldValue = correction.getOldValue();
-			String[] target = {oldValue, oldValue, oldValue};
+			String[] target = { oldValue, oldValue, oldValue };
 			targetList.add(target);
-			
+
 		}
-		String[][] targetArray = targetList.toArray(new String[targetList.size()][3]);
-		
+		String[][] targetArray = targetList.toArray(new String[targetList
+				.size()][3]);
+
 		for (String[] pattern : targetArray) {
 
 			if (matchingAlgorithm.ifmatch(pattern, a)) {
@@ -100,10 +114,10 @@ public class MyCallback implements Callback {
 			}
 		}
 		nodeVisited++;
-		strBuffer.append(subjID + "  " + predID + "  " + objID +"\n");
-//		for (Correction correction : corrections) {
-//			strBuffer.append(correction.toString()+"\n");
-//		}
+		strBuffer.append(subjID + "  " + predID + "  " + objID + "\n");
+		// for (Correction correction : corrections) {
+		// strBuffer.append(correction.toString()+"\n");
+		// }
 		// System.out.println(subjID+"  "+predID+"  "+objID);
 
 	}
@@ -111,8 +125,8 @@ public class MyCallback implements Callback {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Visited:" + nodeVisited + " Match:" + nodeMatch + " \n "
-				+ strBuffer.toString();
+		return "Visited:" + nodeVisited + " Match:" + nodeMatch + " \n ";
+		// + strBuffer.toString();
 	}
 
 }
