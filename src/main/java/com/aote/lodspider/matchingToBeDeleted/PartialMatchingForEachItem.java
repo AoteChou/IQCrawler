@@ -1,4 +1,6 @@
-package com.aote.lodspider.matching;
+package com.aote.lodspider.matchingToBeDeleted;
+
+import com.aote.lodspider.matchingToBeDeleted.Matching;
 
 public class PartialMatchingForEachItem implements Matching {
 	//use contains to judge if match

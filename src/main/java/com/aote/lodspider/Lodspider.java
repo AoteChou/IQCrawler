@@ -57,6 +57,7 @@ public class Lodspider {
 		int maxURIs = Integer.parseInt(configMap.get("maxURIs"));
 		int maxplds = Integer.parseInt(configMap.get("maxplds"));
 		int minActplds = Integer.parseInt(configMap.get("minActplds"));
+		String linkFilterDomain = configMap.get("linkFilterDomain");
 		
 		Callback cboutput1 = null, cboutput2 = null;
 		//set Crawler
@@ -127,11 +128,16 @@ public class Lodspider {
 		}
 
 		// link filter and blacklist
-		LinkFilter linkFilter 
-//		= new LinkFilterDomain(frontier);
-//	    ((LinkFilterDomain)linkFilter).addHost("localhost");
-		= new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
-//		linkFilter.setFollowTBox(false);//so won't follow perdicate and TBox type subject
+		String[] domains = linkFilterDomain.split(";");
+		LinkFilter linkFilter ;
+		if (domains.length >=0) {
+			linkFilter = new LinkFilterDomain(frontier);
+			for (String domian : domains) {
+				((LinkFilterDomain)linkFilter).addHost(domian);
+			}
+		} else {
+			linkFilter = new LinkFilterDefault(frontier);// linkedfilter can add new  uri into Frontier
+		}
 		crawler.setLinkFilter(linkFilter);
 
 		FetchFilter blackList = new FetchFilterSuffix(CrawlerConstants.BLACKLIST);
@@ -161,31 +167,16 @@ public class Lodspider {
 			e.printStackTrace();
 		}
 		
-		//clear queueFile
-		
-		try {
-			OutputStream _out = new FileOutputStream("FrontierQueue");
-			_out.write(("\n").getBytes("utf-8"));
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 		
 		crawler.evaluateBreadthFirst(frontier, new HashSetSeen(),
-				new HashTableRedirects(), depth, maxURIs, maxplds, minActplds, false, Mode.ABOX_ONLY);
+				new HashTableRedirects(), depth, maxURIs, maxplds, minActplds, false, Mode.ABOX_AND_TBOX);
 		
 //		((CallbackGEXFOutputStream) cboutput2).readyToClose();
 //    	cboutput2.endDocument();
    
 		//print callback1 result
-    	System.out.println(cboutput1.toString());
+//    	System.out.println(cboutput1.toString());
+		((LinkFilterDefault)linkFilter).printStatistics();
 	}
 
 	public static void main(String[] args) {

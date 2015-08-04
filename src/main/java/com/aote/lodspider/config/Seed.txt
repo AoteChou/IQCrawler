@@ -1,1 +1,1 @@
-http://purl.uniprot.org/uniprot/P37231
+http://localhost:8080/marmotta/resource?uri=http://localhost/interpro:IPR002061

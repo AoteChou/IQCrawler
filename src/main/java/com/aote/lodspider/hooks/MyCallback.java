@@ -15,6 +15,7 @@ import org.semanticweb.yars.nx.parser.Callback;
 import com.aote.lodspider.corrections.Correction;
 import com.aote.lodspider.matching.Matching;
 import com.aote.lodspider.relevance.Relevance;
+import com.aote.lodspider.relevance.Relevance_URI;
 import com.aote.lodspider.relevance.RelevanceFactory;
 import com.aote.lodspider.relevance.Relevance_Domain;
 
@@ -67,7 +68,7 @@ public class MyCallback implements Callback {
 
 		// get corrections related with this U
 		List<Correction> corrections = new ArrayList<Correction>();
-		Relevance_Domain r = RelevanceFactory.getRelevance();
+		Relevance r = RelevanceFactory.getRelevance();
 
 		try {
 			corrections = r.getRelatedCorrections(new URI(con));

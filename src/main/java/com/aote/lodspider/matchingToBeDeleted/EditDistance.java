@@ -1,4 +1,4 @@
-package com.aote.lodspider.matching;
+package com.aote.lodspider.matchingToBeDeleted;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -9,6 +9,7 @@ import java.util.Iterator;
 
 import org.semanticweb.yars.nx.cli.Split;
 
+import com.aote.lodspider.matchingToBeDeleted.*;
 import com.aote.lodspider.util.Levenshtein;
 
 //import info.debatty.java.stringsimilarity.Levenshtein;
