@@ -183,7 +183,7 @@ public class Lodspider {
 		long t1=System.currentTimeMillis();
 		Lodspider.breadthFirstCrawling("src/main/java/com/aote/lodspider/config/CrawlerConfig.xml");
 		long t2=System.currentTimeMillis();
-		System.out.println(t2-t1);
+		System.out.println("running time:"+ (t2-t1));
 	}
 
 }
