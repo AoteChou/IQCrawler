@@ -4,9 +4,9 @@
 	<seedFile>src/main/java/com/aote/lodspider/config/Seed.txt</seedFile>
 	<seedFile_Correction>src/main/java/com/aote/lodspider/config/Seed_Correction.txt</seedFile_Correction>
 	<CorrectionURI>http://localhost:8080/marmotta/export/download?context=http://localhost:8080/marmotta/context/default&amp;format=application/xml</CorrectionURI>
-	<depth>1</depth>
-	<maxURIs>3</maxURIs>
-	<maxplds>2</maxplds>
+	<depth>10000</depth>
+	<maxURIs>-1</maxURIs>
+	<maxplds>-1</maxplds>
 	<minActplds>-1</minActplds>
 	<linkFilterDomain></linkFilterDomain>
 	<relevanceThreshold>0.3</relevanceThreshold>
