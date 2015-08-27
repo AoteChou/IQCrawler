@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns= "http://localhost/corrections#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://localhost/Corrections">
+  <has rdf:resource= "_1"/>
+  <has rdf:resource= "_2"/>
+  <has rdf:resource= "_3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#_1">
+  <type>Substitution</type>
+  <publishedDate>2015-06-13</publishedDate>
+  <sourceURI>http://purl.uniprot.org/uniprot/P37231.rdf</sourceURI>
+  <accessionPath>prefix : &lt;http://purl.uniprot.org/core/&gt;
+    SELECT ?c WHERE {
+    &lt;#_50333732333100211&gt; :experiments ?c
+    }</accessionPath>
+  <oldValue>4</oldValue>
+  <newValue>3</newValue>
+</rdf:Description>
+<rdf:Description rdf:about="#_2">
+  <type>Substitution</type>
+  <publishedDate>2015-06-06</publishedDate>
+  <sourceURI>http://purl.uniprot.org/uniprot/Q15831.rdf</sourceURI>
+  <accessionPath>prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+    SELECT ?c WHERE {
+    &lt;http://purl.uniprot.org/intact/Q15831&gt; rdfs:comment ?c
+    }</accessionPath>
+  <oldValue>104</oldValue>
+  <newValue>108</newValue>
+</rdf:Description>
+<rdf:Description rdf:about="#_3">
+  <type>Addition</type>
+  <publishedDate>2015-06-06</publishedDate>
+  <sourceURI>http://purl.uniprot.org/uniprot/Q15831.rdf</sourceURI>
+  <accessionPath>prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+    SELECT ?s WHERE {
+    &lt;http://purl.uniprot.org/intact/Q15831&gt; ?P ?O
+    }</accessionPath>
+  <newValue>
+    &lt;rdf:Description rdf:about=&quot;http://purl.uniprot.org/uniprot/Q15831&quot;&gt;
+      &lt;rdfs:seeAlso rdf:resource=&quot;http://purl.uniprot.org/biomuta/STK11&quot;/&gt;
+    &lt;rdf:Description rdf:about=&quot;http://purl.uniprot.org/biomuta/STK11&quot;&gt;
+      &lt;rdf:type rdf:resource=&quot;http://purl.uniprot.org/core/Resource&quot;/&gt;
+      &lt;database rdf:resource=&quot;http://purl.uniprot.org/database/BioMuta&quot;/&gt;
+    &lt;/rdf:Description&gt;
+  </newValue>
+</rdf:Description>
+
+
+</rdf:RDF>

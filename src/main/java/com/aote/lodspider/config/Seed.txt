@@ -1,1 +1,1 @@
-http://localhost:8080/marmotta/resource?uri=http://localhost/interpro:IPR002061
+http://www.ontobee.org/browser/rdf.php?o=GO&iri=http://purl.obolibrary.org/obo/GO_1903478

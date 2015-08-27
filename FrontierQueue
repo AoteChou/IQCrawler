@@ -1,136 +1,437 @@
-Thu Jul 30 11:31:06 BST 2015  new URL:  http://localhost:8080/marmotta/resource?uri=http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:34 BST 2015  new URL:  http://www.ontobee.org/browser/rdf.php?o=GO&iri=http://purl.obolibrary.org/obo/GO_1903478
 
 ____________________
-http://localhost:8080/marmotta/resource?uri=http://localhost/interpro:IPR002061  [Count:1]
+http://www.ontobee.org/browser/rdf.php?o=GO&iri=http://purl.obolibrary.org/obo/GO_1903478  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO/about/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO/about/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:2]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:2]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO/about/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:3]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/go.owl
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:4]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000115
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:5]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000115
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:6]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/BFO_0000050
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:7]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/BFO_0000050
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:7]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/BFO_0000050
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:8]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0071520
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:9]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:1]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0071520
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:10]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0090426
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:11]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0090426
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:12]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903475
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:13]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:1]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903475
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:14]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:15]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:1]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:16]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:2]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:17]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0090426
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:18]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/BFO_0000050
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:19]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:2]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903475
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:20]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:21]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:2]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:4]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
 _______________
-Thu Jul 30 11:31:09 BST 2015  new URL:  http://localhost/interpro:IPR002061
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0071520
 
 ____________________
-http://localhost/interpro:IPR002061  [Count:22]
-http://localhost/interpro_resource:bio2rdf.dataset.interpro.R3  [Count:1]
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:4]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:5]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_0090426
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:5]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:6]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903479
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:6]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:7]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:4]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/BFO_0000050
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:3]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:7]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903475
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:4]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:7]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903478
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:4]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:8]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000115
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:4]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:8]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:3]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:1]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903479
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:4]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:8]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:3]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:2]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:37 BST 2015  new URL:  http://purl.obolibrary.org/obo/GO_1903479
+
+____________________
+http://purl.obolibrary.org/obo/GO/about/GO_1903478  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903475  [Count:4]
+http://purl.obolibrary.org/obo/GO_0071520  [Count:3]
+http://purl.obolibrary.org/obo/GO_1903478  [Count:8]
+http://purl.obolibrary.org/obo/BFO_0000050  [Count:5]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:3]
+http://purl.obolibrary.org/obo/GO_0090426  [Count:4]
+http://purl.obolibrary.org/obo/GO_1903479  [Count:3]
+http://purl.obolibrary.org/obo/go.owl  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000116
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000116
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000115
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000111
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000112
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000112
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000118
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000118  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000112
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:3]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000118  [Count:1]
+_______________
+Thu Aug 27 00:01:42 BST 2015  new URL:  http://purl.obolibrary.org/obo/RO_0001900
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:3]
+http://purl.obolibrary.org/obo/RO_0001900  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000118  [Count:1]
+_______________
+Thu Aug 27 00:01:43 BST 2015  new URL:  http://purl.obolibrary.org/obo/IAO_0000115
+
+____________________
+http://purl.obolibrary.org/obo/IAO_0000112  [Count:3]
+http://purl.obolibrary.org/obo/RO_0001900  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000111  [Count:1]
+http://purl.obolibrary.org/obo/IAO_0000116  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000115  [Count:2]
+http://purl.obolibrary.org/obo/IAO_0000118  [Count:1]
 _______________

@@ -1,1 +1,7 @@
-<http://localhost:8080/marmotta/resource?uri=http://localhost/interpro:IPR002061> <http://localhost:8080/marmotta/meta/application/rdf+xml?uri=http://localhost/interpro:IPR002061> .
+<http://purl.obolibrary.org/obo/GO_0090426> <http://www.berkeleybop.org/ontologies/GO_0090426> .
+<http://purl.obolibrary.org/obo/GO_1903478> <http://www.berkeleybop.org/ontologies/GO_1903478> .
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.ontobee.org/browser/rdf.php?o=RO&iri=http://purl.obolibrary.org/obo/BFO_0000050> .
+<http://www.berkeleybop.org/ontologies/GO_0090426> <http://purl.obolibrary.org/obo/GO/about/GO_0090426> .
+<http://www.berkeleybop.org/ontologies/GO_1903478> <http://purl.obolibrary.org/obo/GO/about/GO_1903478> .
+<http://purl.obolibrary.org/obo/GO/about/GO_1903478> <http://www.ontobee.org/browser/rdf.php?o=GO&iri=http://purl.obolibrary.org/obo/GO_1903478> .
+<http://purl.obolibrary.org/obo/GO/about/GO_0090426> <http://www.ontobee.org/browser/rdf.php?o=GO&iri=http://purl.obolibrary.org/obo/GO_0090426> .

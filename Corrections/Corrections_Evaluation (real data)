@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns= "http://localhost/corrections#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://localhost/Corrections">
+  <has rdf:resource= "_9"/>
+  <has rdf:resource= "_9"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#_9">
+  <type>Substitution</type>
+  <publishedDate>2015-08-11</publishedDate>
+  <sourceURI>http://localhost:8080/marmotta/resource?uri=http://purl.obolibrary.org/obo/GO_1903478</sourceURI>
+  <accessionPath>
+  CONSTRUCT {?S ?P ?O} WHERE {
+    ?S ?P ?O
+    FILTER regex(str(?S), "GO_1903478")
+  }</accessionPath>
+  <newValue>Corrections/9_new</newValue>
+  <oldValue>Corrections/9_old</oldValue>
+</rdf:Description>
+
+<rdf:Description rdf:about="#_10">
+  <type>Deletion</type>
+  <publishedDate>2015-08-11</publishedDate>
+  <sourceURI>http://localhost:8080/marmotta/resource?uri=http://purl.obolibrary.org/obo/GO_0006096</sourceURI>
+  <accessionPath>
+  CONSTRUCT {?S ?P ?O} WHERE {
+    ?S ?P ?O
+    FILTER regex(str(?S), "GO_0006096")
+  }</accessionPath>
+  <oldValue>Corrections/10_old</oldValue>
+</rdf:Description>
+
+</rdf:RDF>

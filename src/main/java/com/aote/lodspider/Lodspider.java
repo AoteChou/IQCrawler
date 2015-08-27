@@ -17,7 +17,6 @@ import org.semanticweb.yars.nx.parser.Callback;
 import org.semanticweb.yars.util.CallbackNQOutputStream;
 import org.semanticweb.yars.util.Callbacks;
 
-import com.aote.lodspider.hooks.MyCallback;
 import com.aote.lodspider.matching.EditDistance;
 import com.aote.lodspider.matching.PartialMatchingForEachItem;
 import com.aote.lodspider.util.XMLParser;
@@ -107,30 +106,30 @@ public class Lodspider {
 		
 		
 		// sink
-		try {
-			OutputStream os = new FileOutputStream("crawlerLog");
-			cboutput1 = new MyCallback(os,new PartialMatchingForEachItem());
-			OutputStream os2 = new FileOutputStream("crawlerLog_ED");
-			cboutput2 = new MyCallback(os2,new EditDistance(0.8));
-			OutputStream os3 = new FileOutputStream("crawlerLog_Full");
-			Callback cboutput3 = new CallbackNQOutputStream(os3);//if used the thread will be stoped when a rdf file is finished, don't know why 
+//		try {
+//			OutputStream os = new FileOutputStream("crawlerLog");
+//			cboutput1 = new MyCallback(os,new PartialMatchingForEachItem());
+//			OutputStream os2 = new FileOutputStream("crawlerLog_ED");
+//			cboutput2 = new MyCallback(os2,new EditDistance(0.8));
+//			OutputStream os3 = new FileOutputStream("crawlerLog_Full");
+//			Callback cboutput3 = new CallbackNQOutputStream(os3);//if used the thread will be stoped when a rdf file is finished, don't know why 
 //			OutputStream os2 = new BufferedOutputStream(new FileOutputStream("CrawlGraph.gexf"));
 //			cboutput2 = new CallbackGEXFOutputStream(os2);
 			Callbacks cbs = new Callbacks(new Callback[] { } );
 
-			Sink sink = new SinkCallback(cbs,false);
-			crawler.setOutputCallback(sink);
-			cboutput1.startDocument();
+//			Sink sink = new SinkCallback(cbs,false);
+//			crawler.setOutputCallback(sink);
+//			cboutput1.startDocument();
 //			cboutput2.startDocument();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 
 		// link filter and blacklist
 		String[] domains = linkFilterDomain.split(";");
 		LinkFilter linkFilter ;
-		if (domains.length >=0) {
+		if (domains.length >=0 && !domains[0].equals("")) {
 			linkFilter = new LinkFilterDomain(frontier);
 			for (String domian : domains) {
 				((LinkFilterDomain)linkFilter).addHost(domian);
@@ -181,7 +180,10 @@ public class Lodspider {
 
 	public static void main(String[] args) {
 		Lodspider lodspider = new Lodspider();
+		long t1=System.currentTimeMillis();
 		Lodspider.breadthFirstCrawling("src/main/java/com/aote/lodspider/config/CrawlerConfig.xml");
+		long t2=System.currentTimeMillis();
+		System.out.println(t2-t1);
 	}
 
 }

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns= "http://localhost/corrections#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://localhost/Corrections">
+  <has rdf:resource= "_6"/>
+  <has rdf:resource= "_7"/>
+  <has rdf:resource= "_8"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#_6">
+  <type>Substitution</type>
+  <publishedDate>2015-06-14</publishedDate>
+  <sourceURI>http://cu.interpro.bio2rdf.org/sparql?query=define%20sql%3Adescribe-mode%20%22LOD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fbio2rdf.org%2Finterpro%3AIPR002061%3E&amp;output=application%2Frdf%2Bxml</sourceURI>
+  <accessionPath>prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+  CONSTRUCT {?S ?P ?O} WHERE {
+    ?S ?P ?O
+    FILTER regex(str(?S), "IPR002061")
+  }</accessionPath>
+  <newValue>Corrections/6_new</newValue>
+  <oldValue>Corrections/6_old</oldValue>
+</rdf:Description>
+
+<rdf:Description rdf:about="#_7">
+  <type>Deletion</type>
+  <publishedDate>2015-06-14</publishedDate>
+  <sourceURI>http://cu.interpro.bio2rdf.org/sparql?query=define%20sql%3Adescribe-mode%20%22LOD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fbio2rdf.org%2Finterpro%3AIPR002061%3E&amp;output=application%2Frdf%2Bxml</sourceURI>
+  <accessionPath>prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+  CONSTRUCT {?S ?P ?O} WHERE {
+    ?S ?P ?O
+    FILTER regex(str(?S),"IPR002061")
+  }</accessionPath>
+  <oldValue>Corrections/6_old</oldValue>
+</rdf:Description>
+
+<rdf:Description rdf:about="#_8">
+  <type>Addition</type>
+  <publishedDate>2015-06-14</publishedDate>
+  <sourceURI>http://cu.interpro.bio2rdf.org/sparql?query=define%20sql%3Adescribe-mode%20%22LOD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fbio2rdf.org%2Finterpro%3AIPR002061%3E&amp;output=application%2Frdf%2Bxml</sourceURI>
+  <accessionPath>prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+  CONSTRUCT {?S ?P ?O} WHERE {
+    ?S ?P ?O
+    FILTER regex(str(?S),"IPR002061")
+  }</accessionPath>
+  <newValue>Corrections/6_new</newValue>
+</rdf:Description>
+
+</rdf:RDF>
